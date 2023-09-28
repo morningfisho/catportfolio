@@ -9,12 +9,12 @@
       font-size: 400%;
     }
     h2 {
-      color: white;
+      color: black;
       font-family: alegreya;
       font-size: 400%;
     }
     p {
-      color: white;
+      color: black;
       font-family: alegreya;
       font-size: 160%
     }
@@ -28,29 +28,70 @@ background-image: url('photo-1534796636912-3b95b3ab5986.jpg');
 }
 .top-left {
   position: absolute;
-  top: 0px;
+  top: 500px;
   left:300px;
 }
 .bottom-left {
   position: absolute;
-  bottom: 1000px;
+  bottom: 500px;
   left: 400px;
 }
-
+.top-left1 {
+  position: absolute;
+  top: 600px;
+  left:500px;
+}
+.bottom-left1 {
+  position: absolute;
+  bottom: 800px;
+  left: 200px;
+}
 .image2 {
   position: absolute;
-  top: 250px;
+  top: 750px;
   left: 400px;
 }
 .image3 {
   position: absolute;
-  top: 300px;
+  top: 780px;
   left: 600px;
 }
 .image4 {
   position: absolute;
-  top: 200px;
+  top: 700px;
   left: 800px;
+}
+.image5 {
+  position: absolute;
+  top: 200px;
+  left: 700px;
+}
+.image6 {
+  position: absolute;
+  top: 80px;
+  left: 200px;
+}
+div.gallery {
+  margin: 50px;
+  float: left;
+  width: 200px;
+}
+
+div.gallery img {
+  width: 120%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+.hyperlink {
+  color: white;
+      font-family: alegreya;
+      font-size: 200%;
+      bottom: 1500px;
+      background-color: #FFFF00
 }
   </style>
 </head>
@@ -58,19 +99,55 @@ background-image: url('photo-1534796636912-3b95b3ab5986.jpg');
 
 <div class="container">
   <img class="image1" src="d1lj905-dcedd45b-89c3-4449-ad03-ddcb6b98153b.png" alt="ripped paper" 
-style="width:80%;position:relative; left:-50px; top:-500px;
+style="width:80%;position:relative; left:-50px; top:0px;
 transform: rotate(80deg);">
   <img class="image2" src="C (1).png" style="width:12%;"/>
   <img class="image3" src="Cardboard-Cut-font-letter-A.png" style="width:12%;"/>
   <img class="image4" src="318354396513211.png" style="width:12%;"/>
+  <img class="image5" src="startoro.jpg" style="width:30%;transform: rotate(10deg);"/>
+  <img class="image6" src="taiyaki.jpg" style="width:25%;transform: rotate(-10deg);"/>
   <div class="top-left"><b><h1>your</h></b></div>
   <div class="bottom-left"><b><h1>neighborhood</h1></b></div>
+</div>
+
+<div class="hyperlink"><center><a href="./galley.html"><b>View More Photos and Footage Here!</b></a></center></div>
+
+<div class="gallery">
+  <a target="_blank" href="IMG_20230926_175304.jpg">
+    <img src="IMG_20230926_175304.jpg" alt="halfbody view" width="600" height="400">
+  </a>
+  <div class="desc">front view</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="IMG_20230923_182049.jpg">
+    <img src="IMG_20230923_182049.jpg" alt="Sunset" width="800" height="600">
+  </a>
  
 </div>
 
-  <center><h2>About Me</h2></center>
-  <p>
-    I am an outdoor cat zooming around the neighborhood. I am so friendly that I will walk up to you if you put your hand out! I am also super fluffy and can meow. My current aspirations are for you to love me and give me extra snacks. :&lt;&lt;
-  </p>
+<div class="gallery">
+  <a target="_blank" href="IMG_20230923_182026.jpg">
+    <img src="IMG_20230923_182026.jpg"alt="Portrait" width="800" height="600">
+  </a>
+ 
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="IMG_20230926_175300.jpg">
+    <img src="IMG_20230926_175300.jpg" alt="potato" width="800" height="600">
+  </a>
+</div>
+<br><br>
+<div class="container">
+  <img class="image1" src="d1lj905-dcedd45b-89c3-4449-ad03-ddcb6b98153b.png" alt="ripped paper" 
+style="width:80%;position:relative; left:30px; top:-300px;
+transform: rotate(90deg);">
+
+  <div class="top-left1"><b><h1>About ME</h></b></div>
+  <div class="bottom-left1"><b><p> I am an outdoor cat zooming around the neighborhood.<br>I am so friendly that I will walk up to you if you put your hand out!<br> I am also super fluffy and can meow. My current aspirations are for you to <br> love me and give me extra snacks.</p></b></div>
+  
+</div>
+  
 </body>
 </html>
